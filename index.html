@@ -356,6 +356,12 @@ section#resources .card-row + .card-row{margin-top:22px}
 /* Extra safety: override any global hover lift for callouts on desktop too */
 .callout.callout-card:hover { transform: none !important; }
 
+
+/* Hide hero image & turquoise callout on mobile only */
+@media (max-width: 768px){
+  .hero-media{ display:none !important; }
+}
+
 </style>
 </head>
 <body>
